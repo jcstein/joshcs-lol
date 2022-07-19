@@ -279,6 +279,18 @@ function App() {
           </Link>
         </HStack>
         <Heading size="sm" textAlign="center" pt="7">
+          Writing{" "}
+        </Heading>
+        <Link href="https://mirror.xyz/joshcs.eth" isExternal>
+          Mirror
+        </Link>
+        <Link href="https://hashnode.com/@jcstein" isExternal>
+          Hashnode
+        </Link>
+        <Link href="https://blog.jcstein.dev" isExternal>
+          Blog
+        </Link>
+        <Heading size="sm" textAlign="center" pt="7">
           Art Galleries
         </Heading>
         <Link href="https://deca.art/joshcs/fr33styl3" isExternal>
