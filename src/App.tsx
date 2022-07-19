@@ -18,7 +18,7 @@ function App() {
   return (
     <div>
       <Flex align="center" justify="end">
-        <HStack p="2">
+        <HStack p="2" pr="5">
           <IconButton
             colorScheme="purple"
             onClick={() =>
@@ -94,7 +94,7 @@ function App() {
         </Text>
         <Divider />
         <Heading size="md" textAlign="center" pt="3">
-          Sites and projects I've shipped recently 🛸
+          Projects and articles I've shipped recently 🛸
         </Heading>
         <Heading size="sm" textAlign="center" pt="3">
           Projects
@@ -118,14 +118,21 @@ function App() {
         >
           web3con by DeveloperDAO
         </Link>
-        <HStack>
+        <Link
+          href="https://speedrunethereum.com/builders/0x186Ea56F0a40c5593A697B3E804968b8C5920Ff3"
+          isExternal
+          textAlign="center"
+        >
+          SpeedRunEthereum.com
+        </Link>
+        <Text textAlign="center">
           <Link
             href="https://solidity-keyboard-generator.vercel.app/"
             isExternal
             textAlign="center"
           >
             pointer.gg - Solidity Keyboard Generator
-          </Link>
+          </Link>{" "}
           <Link
             href="https://github.com/jcstein/solidity-keyboard-generator"
             isExternal
@@ -133,15 +140,15 @@ function App() {
           >
             (GitHub)
           </Link>
-        </HStack>
-        <HStack>
+        </Text>
+        <Text textAlign="center">
           <Link
             href="https://enter.wellnessdao.xyz/"
             isExternal
             textAlign="center"
           >
             buildspace - build your own DAO
-          </Link>
+          </Link>{" "}
           <Link
             href="https://github.com/jcstein/buildspace-dao-starter"
             isExternal
@@ -149,15 +156,15 @@ function App() {
           >
             (GitHub)
           </Link>
-        </HStack>
-        <HStack>
+        </Text>
+        <Text textAlign="center">
           <Link
             href="https://mint.blockify.shop/"
             isExternal
             textAlign="center"
           >
             buildspace - solana NFT collection
-          </Link>
+          </Link>{" "}
           <Link
             href="https://github.com/jcstein/nft-drop-starter-project"
             isExternal
@@ -165,15 +172,15 @@ function App() {
           >
             (GitHub)
           </Link>
-        </HStack>
-        <HStack>
+        </Text>
+        <Text textAlign="center">
           <Link
             href="https://solana.jcstein.dev/"
             isExternal
             textAlign="center"
           >
             buildspace - Solana dApp
-          </Link>
+          </Link>{" "}
           <Link
             href="https://replit.com/@jcstein/solana?v=1"
             isExternal
@@ -181,11 +188,11 @@ function App() {
           >
             (Replit)
           </Link>
-        </HStack>
-        <HStack>
+        </Text>
+        <Text textAlign="center">
           <Link href="https://game.jcstein.dev/" isExternal textAlign="center">
             buildspace - playable NFTs
-          </Link>
+          </Link>{" "}
           <Link
             href="https://replit.com/@jcstein/bosshroom?v=1"
             isExternal
@@ -193,15 +200,15 @@ function App() {
           >
             (Replit)
           </Link>
-        </HStack>
-        <HStack>
+        </Text>
+        <Text textAlign="center">
           <Link
             href="https://minting.jcstein.dev/"
             isExternal
             textAlign="center"
           >
             buildspace - minting site
-          </Link>
+          </Link>{" "}
           <Link
             href="https://replit.com/@jcstein/lattice-supply?v=1"
             isExternal
@@ -209,11 +216,11 @@ function App() {
           >
             (Replit)
           </Link>
-        </HStack>
-        <HStack>
+        </Text>
+        <Text textAlign="center">
           <Link href="https://web3.jcstein.dev/" isExternal textAlign="center">
             buildspace - intro to web3
-          </Link>
+          </Link>{" "}
           <Link
             href="https://replit.com/@jcstein/veggie-portal?v=1"
             isExternal
@@ -221,15 +228,15 @@ function App() {
           >
             (Replit)
           </Link>
-        </HStack>
-        <HStack>
+        </Text>
+        <Text textAlign="center">
           <Link
             href="https://sequoiavans.gatsbyjs.io/"
             isExternal
             textAlign="center"
           >
             Sequoia Vans, i18n demo
-          </Link>
+          </Link>{" "}
           <Link
             href="https://github.com/jcstein/sequoia-vans"
             isExternal
@@ -237,7 +244,7 @@ function App() {
           >
             (GitHub)
           </Link>
-        </HStack>
+        </Text>
         <Divider />
         <Heading size="sm" textAlign="center" pt="3">
           Tutorials
@@ -265,14 +272,14 @@ function App() {
         >
           Deploy a dApp with RainbowKit, Ankr, React, and Chakra-UI
         </Link>
-        <HStack>
+        <Text textAlign="center">
           <Link
             href="https://blog.jcstein.dev/how-to-set-up-your-own-solana-pay-point-of-sale-pos-app"
             isExternal
             textAlign="center"
           >
             How to Set Up your own Solana Pay PoS
-          </Link>
+          </Link>{" "}
           <Link
             href="https://solana-pay-lyart.vercel.app/new?recipient=8efRxx3LBzXSPFwFj2UgvCsfJjfEkRxDdw2AtUi61Jtb&label=store+name"
             isExternal
@@ -280,7 +287,7 @@ function App() {
           >
             (Live Demo)
           </Link>
-        </HStack>
+        </Text>
         <Divider />
         <Heading size="sm" textAlign="center" pt="3">
           Writing
@@ -314,11 +321,14 @@ function App() {
         <Link href="https://joshcs.xyz/" isExternal>
           joshcs.xyz
         </Link>
-        <Link href="https://jcstein.dev/" isExternal pb="7">
+        <Link href="https://jcstein.dev/" isExternal>
           jcstein.dev
         </Link>
+        <Link href="https://jcstein.com/" isExternal pb="3">
+          jcstein.com
+        </Link>
         <Divider />
-        <Link href="/" pt="3">
+        <Link href="/" pt="8">
           <Avatar src="/jcs.png" mx="auto" size="md" />
         </Link>
       </VStack>
