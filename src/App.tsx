@@ -20,7 +20,7 @@ function App() {
       <Flex align="center" justify="end">
         <HStack p="2">
           <IconButton
-            colorScheme="teal"
+            colorScheme="purple"
             onClick={() =>
               window.open("https://linkedin.com/in/joshcstein", "_blank")
             }
@@ -29,7 +29,7 @@ function App() {
             <FaLinkedin />
           </IconButton>
           <IconButton
-            colorScheme="teal"
+            colorScheme="purple"
             onClick={() =>
               window.open("https://twitter.com/JoshCStein", "_blank")
             }
@@ -38,7 +38,7 @@ function App() {
             <FaTwitter />
           </IconButton>
           <IconButton
-            colorScheme="teal"
+            colorScheme="purple"
             onClick={() => window.open("https://github.com/jcstein", "_blank")}
             aria-label={`Follow @jcstein on GitHub`}
           >
@@ -54,10 +54,13 @@ function App() {
       </Flex>
       <VStack p="10">
         <Heading>gm, I'm joshcs.eth!</Heading>
+        <Avatar src="/jcs.jpeg" mx="auto" size="2xl" />
         <Heading size="sm" pb="3" textAlign="center">
           Thank you for stopping by my site 😄
         </Heading>
-        <Avatar src="/jcs.jpeg" mx="auto" size="2xl" />
+        <Heading size="md" textAlign="center" pt="5">
+          About Me
+        </Heading>
         <Text textAlign="center">
           I&#39;m currently a Developer Relations Engineer at{" "}
           <Link href="https://ankr.com" isExternal>
@@ -293,8 +296,11 @@ function App() {
         <Link href="https://joshcs.xyz/" isExternal>
           joshcs.xyz
         </Link>
-        <Link href="https://jcstein.dev/" isExternal>
+        <Link href="https://jcstein.dev/" isExternal pb="10">
           jcstein.dev
+        </Link>
+        <Link href="/">
+          <Avatar src="/jcs.png" mx="auto" size="md" />
         </Link>
       </VStack>
     </div>
