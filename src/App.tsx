@@ -7,7 +7,7 @@ import {
   Flex,
   HStack,
   Link,
-  Image,
+  Divider,
 } from "@chakra-ui/react";
 import { useColorMode } from "@chakra-ui/react";
 import { FaMoon, FaSun, FaTwitter, FaGithub, FaLinkedin } from "react-icons/fa";
@@ -53,12 +53,13 @@ function App() {
         </HStack>
       </Flex>
       <VStack p="10">
-        <Heading>gm, I'm joshcs.eth!</Heading>
+        <Heading pb="3">gm, I'm joshcs.eth!</Heading>
         <Avatar src="/jcs.jpeg" mx="auto" size="2xl" />
-        <Heading size="sm" pb="3" textAlign="center">
+        <Heading size="sm" pb="3" textAlign="center" pt="3">
           Thank you for stopping by my site 😄
         </Heading>
-        <Heading size="md" textAlign="center" pt="5">
+        <Divider />
+        <Heading size="md" textAlign="center" pt="3">
           About Me
         </Heading>
         <Text textAlign="center">
@@ -91,10 +92,11 @@ function App() {
           founder of <Link href="https://wellnessdao.xyz">wellnessdao.xyz</Link>{" "}
           🧠
         </Text>
-        <Heading size="md" textAlign="center" pb="5" pt="10">
-          Below are the sites and projects I've shipped recently 🛸
+        <Divider />
+        <Heading size="md" textAlign="center" pt="3">
+          Sites and projects I've shipped recently 🛸
         </Heading>
-        <Heading size="sm" textAlign="center">
+        <Heading size="sm" textAlign="center" pt="3">
           Projects
         </Heading>
         <Link href="https://rainbowkit.me" isExternal textAlign="center">
@@ -236,8 +238,9 @@ function App() {
             (GitHub)
           </Link>
         </HStack>
-        <Heading size="sm" textAlign="center" pt="7">
-          Tutorials{" "}
+        <Divider />
+        <Heading size="sm" textAlign="center" pt="3">
+          Tutorials
         </Heading>
         <Link
           href="https://ankr.hashnode.dev/how-to-deploy-your-first-polygon-nft-with-an-erc-721-solidity-smart-contract-and-ankr"
@@ -278,8 +281,9 @@ function App() {
             (Live Demo)
           </Link>
         </HStack>
-        <Heading size="sm" textAlign="center" pt="7">
-          Writing{" "}
+        <Divider />
+        <Heading size="sm" textAlign="center" pt="3">
+          Writing
         </Heading>
         <Link href="https://mirror.xyz/joshcs.eth" isExternal>
           Mirror
@@ -290,7 +294,8 @@ function App() {
         <Link href="https://blog.jcstein.dev" isExternal>
           Blog
         </Link>
-        <Heading size="sm" textAlign="center" pt="7">
+        <Divider />
+        <Heading size="sm" textAlign="center" pt="3">
           Art Galleries
         </Heading>
         <Link href="https://deca.art/joshcs/fr33styl3" isExternal>
@@ -302,16 +307,18 @@ function App() {
         <Link href="https://doingud.com/@joshcs?tab=collected" isExternal>
           DoinGud
         </Link>
-        <Heading size="sm" textAlign="center" pt="7">
+        <Divider />
+        <Heading size="sm" textAlign="center" pt="3">
           Old Portfolio Sites
         </Heading>
         <Link href="https://joshcs.xyz/" isExternal>
           joshcs.xyz
         </Link>
-        <Link href="https://jcstein.dev/" isExternal pb="10">
+        <Link href="https://jcstein.dev/" isExternal pb="7">
           jcstein.dev
         </Link>
-        <Link href="/">
+        <Divider />
+        <Link href="/" pt="3">
           <Avatar src="/jcs.png" mx="auto" size="md" />
         </Link>
       </VStack>
