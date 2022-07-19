@@ -196,6 +196,9 @@ export const Projects = () => {
       <Link href="https://hashnode.com/@jcstein" isExternal>
         Hashnode
       </Link>
+      <Link href="https://joshcs.substack.com" isExternal>
+        Substack
+      </Link>
       <Link href="https://blog.jcstein.dev" isExternal>
         Blog
       </Link>
