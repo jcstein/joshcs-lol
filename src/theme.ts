@@ -6,13 +6,20 @@ const config: ThemeConfig = {
 };
 
 const theme = extendTheme({
+  config,
   components: {
     Link: {
       variants: {
         primary: ({ colorScheme = "purple" }) => ({
-          color: `${colorScheme}.500`,
+          color: `${colorScheme}.600`,
           _hover: {
-            color: `${colorScheme}.400`,
+            color: `${colorScheme}.800`,
+          },
+          _dark: {
+            color: `${colorScheme}.200`,
+            _hover: {
+              color: `${colorScheme}.500`,
+            },
           },
         }),
       },
