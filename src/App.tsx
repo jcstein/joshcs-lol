@@ -53,7 +53,7 @@ function App() {
         </HStack>
       </Flex>
       <VStack p="10">
-        <Heading>gm, I'm Josh CS!</Heading>
+        <Heading>gm, I'm joshcs.eth!</Heading>
         <Heading size="sm" pb="3" textAlign="center">
           Thank you for stopping by my site 😄
         </Heading>
