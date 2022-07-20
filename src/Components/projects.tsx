@@ -28,6 +28,9 @@ export const Projects = () => {
       >
         web3con by DeveloperDAO
       </Link>
+      <Link href="https://xp-radio.vercel.app/" isExternal textAlign="center">
+        XP Radio Linktree-style Chakra-UI + React
+      </Link>
       <Link
         href="https://speedrunethereum.com/builders/0x186Ea56F0a40c5593A697B3E804968b8C5920Ff3"
         isExternal
