@@ -69,6 +69,13 @@ export const Projects = () => {
         >
           (GitHub)
         </Link>
+        <Link
+          href="http://wellness-dao.vercel.app/"
+          isExternal
+          textAlign="center"
+        >
+          Wellness DAO V1
+        </Link>
       </Text>
       <Text textAlign="center">
         <Link href="https://mint.blockify.shop/" isExternal textAlign="center">
