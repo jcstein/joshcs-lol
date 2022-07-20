@@ -60,7 +60,7 @@ export const Projects = () => {
           isExternal
           textAlign="center"
         >
-          buildspace - build your own DAO
+          buildspace - Wellness DAO, build your own DAO
         </Link>{" "}
         <Link
           href="https://github.com/jcstein/buildspace-dao-starter"
@@ -72,7 +72,7 @@ export const Projects = () => {
       </Text>
       <Text textAlign="center">
         <Link href="https://mint.blockify.shop/" isExternal textAlign="center">
-          buildspace - solana NFT collection
+          buildspace - Blockify Solana NFT collection
         </Link>{" "}
         <Link
           href="https://github.com/jcstein/nft-drop-starter-project"
@@ -82,6 +82,9 @@ export const Projects = () => {
           (GitHub)
         </Link>
       </Text>
+      <Link href="https://blockify.so/" isExternal textAlign="center">
+        Blockify Concept
+      </Link>
       <Text textAlign="center">
         <Link href="https://solana.jcstein.dev/" isExternal textAlign="center">
           buildspace - Solana dApp
