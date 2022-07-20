@@ -156,6 +156,9 @@ export const Projects = () => {
           (GitHub)
         </Link>
       </Text>
+      <Link href="3slr.vercel.app" isExternal textAlign="center">
+        3SLR Zora Demo
+      </Link>
       <Link href="https://issnlnewtonight.com/" isExternal textAlign="center">
         Is SNL New Tonight?
       </Link>
