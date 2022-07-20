@@ -156,6 +156,9 @@ export const Projects = () => {
           (GitHub)
         </Link>
       </Text>
+      <Link href="https://issnlnewtonight.com/" isExternal textAlign="center">
+        Is SNL New Tonight?
+      </Link>
       <Divider />
       <Heading size="sm" textAlign="center" pt="3">
         Tutorials
