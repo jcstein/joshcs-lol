@@ -68,7 +68,7 @@ export const Projects = () => {
           textAlign="center"
         >
           (GitHub)
-        </Link>
+        </Link>{" "}
         <Link
           href="http://wellness-dao.vercel.app/"
           isExternal
