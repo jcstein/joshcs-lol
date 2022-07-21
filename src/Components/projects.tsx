@@ -1,16 +1,28 @@
-import { Heading, Text, Link, Divider, VStack } from "@chakra-ui/react";
+import { Heading, Text, Link, Divider, VStack, Flex } from "@chakra-ui/react";
+import ReactPlayer from "react-player";
 
 export const Projects = () => {
   return (
     <VStack>
       <Heading size="md" textAlign="center" pt="3">
-        Projects and articles I've shipped recently 🛸
+        Projects, Tutorials, and Presentations 🛸
       </Heading>
+      <Heading size="sm" textAlign="center" pt="3">
+        Presentations
+      </Heading>
+      <Flex>
+        <ReactPlayer
+          url="https://www.youtube.com/watch?v=LS0rqL6Zp1A"
+          width="100%"
+          height="100%"
+        />
+      </Flex>
+      <Divider />
       <Heading size="sm" textAlign="center" pt="3">
         Projects
       </Heading>
-      <Link href="https://vite-tree.vercel.app" isExternal textAlign="center">
-        Vite Tree - DIY Linketree
+      <Link href="https://vitetree.xyz" isExternal textAlign="center">
+        Vite Tree - DIY React Linketree with Chakra UI
       </Link>
       <Link
         href="https://github.com/jcstein/vite-tailwind-starter"
@@ -39,7 +51,7 @@ export const Projects = () => {
         web3con by DeveloperDAO
       </Link>
       <Link href="https://xp-radio.vercel.app/" isExternal textAlign="center">
-        XP Radio Linktree-style Chakra-UI + React
+        XP Radio Linktree-style Chakra UI + React
       </Link>
       <Link
         href="https://speedrunethereum.com/builders/0x186Ea56F0a40c5593A697B3E804968b8C5920Ff3"
