@@ -9,6 +9,9 @@ export const Projects = () => {
       <Heading size="sm" textAlign="center" pt="3">
         Projects
       </Heading>
+      <Link href="https://vite-tree.vercel.app" isExternal textAlign="center">
+        Vite Tree - DIY Linketree
+      </Link>
       <Link
         href="https://github.com/jcstein/vite-tailwind-starter"
         isExternal
