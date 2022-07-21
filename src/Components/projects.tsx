@@ -9,6 +9,13 @@ export const Projects = () => {
       <Heading size="sm" textAlign="center" pt="3">
         Projects
       </Heading>
+      <Link
+        href="https://github.com/jcstein/vite-tailwind-starter"
+        isExternal
+        textAlign="center"
+      >
+        Vite Tailwind Starter Template
+      </Link>
       <Link href="https://rainbowkit.me" isExternal textAlign="center">
         RainbowKit Starter (Vite + React + Tailwind CSS)
       </Link>
