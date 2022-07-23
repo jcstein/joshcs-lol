@@ -250,6 +250,12 @@ export const Projects = () => {
       <Link href="https://deca.art/joshcs/fr33styl3" isExternal>
         Deca
       </Link>
+      <iframe
+        src="https://deca.art/joshcs/fr33styl3"
+        title="Deca.art"
+        width="80%"
+        height="600px"
+      />
       <Link href="https://oncyber.io/joshstein" isExternal>
         oncyber
       </Link>
