@@ -5,11 +5,11 @@ export const About = () => {
     <VStack>
       <Heading pb="3">gm, I'm joshcs.eth!</Heading>
       <Avatar src="/jcs.jpeg" mx="auto" size="2xl" />
-      <Heading size="sm" pb="3" textAlign="center" pt="3">
+      <Heading size="md" pb="3" textAlign="center" pt="3">
         Thank you for stopping by my site 😄
       </Heading>
       <Divider />
-      <Heading size="md" textAlign="center" pt="3">
+      <Heading size="lg" textAlign="center" pt="3">
         About Me
       </Heading>
       <Text textAlign="center">
@@ -29,8 +29,10 @@ export const About = () => {
       </Text>
       <Text textAlign="center">
         Previously, I was a teaching assistant with{" "}
-        <Link href="https://buildspace.so">buildspace</Link> - you can see my
-        buildspace profile{" "}
+        <Link href="https://buildspace.so" isExternal>
+          buildspace
+        </Link>{" "}
+        - you can see my buildspace profile{" "}
         <Link href="buildspace.so/@josh" isExternal>
           @josh
         </Link>{" "}
@@ -38,8 +40,13 @@ export const About = () => {
       </Text>
       <Text textAlign="center">
         I am also a co-founder of{" "}
-        <Link href="https://lattice.supply">Lattice Supply</Link> ♻️🛹 and
-        founder of <Link href="https://wellnessdao.xyz">wellnessdao.xyz</Link>{" "}
+        <Link href="https://lattice.supply" isExternal>
+          Lattice Supply
+        </Link>{" "}
+        ♻️🛹 and founder of{" "}
+        <Link href="https://wellnessdao.xyz" isExternal>
+          wellnessdao.xyz
+        </Link>{" "}
         🧠
       </Text>
     </VStack>

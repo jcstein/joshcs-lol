@@ -1,13 +1,24 @@
-import { Heading, Text, Link, Divider, VStack, Flex } from "@chakra-ui/react";
+import {
+  Heading,
+  Text,
+  Link,
+  Divider,
+  VStack,
+  Flex,
+  Button,
+} from "@chakra-ui/react";
 import ReactPlayer from "react-player";
+import { FaTelegram, FaDiscord, FaSeedling } from "react-icons/fa";
+import { GrGallery } from "react-icons/gr";
+import { Gi3DGlasses } from "react-icons/gi";
 
 export const Projects = () => {
   return (
     <VStack>
-      <Heading size="md" textAlign="center" pt="3">
+      <Heading size="lg" textAlign="center" pt="3">
         Projects, Tutorials, and Presentations 🛸
       </Heading>
-      <Heading size="sm" textAlign="center" pt="3">
+      <Heading size="md" textAlign="center" pt="3">
         Presentations
       </Heading>
       <Flex>
@@ -18,7 +29,7 @@ export const Projects = () => {
         />
       </Flex>
       <Divider />
-      <Heading size="sm" textAlign="center" pt="3">
+      <Heading size="md" textAlign="center" pt="3">
         Projects
       </Heading>
       <Link href="https://vitetree.xyz" isExternal textAlign="center">
@@ -185,11 +196,11 @@ export const Projects = () => {
         Is SNL New Tonight?
       </Link>
       <Divider />
-      <Heading size="sm" textAlign="center" pt="3">
+      <Heading size="md" textAlign="center" pt="3">
         Tutorials
       </Heading>
       <Link
-        href="https://ankr.hashnode.dev/how-to-deploy-your-first-polygon-nft-with-an-erc-721-solidity-smart-contract-and-ankr"
+        href="https://ankr.hashnode.dev/how-to-deploy-your-first-polygon-nft-with-an-erc-721-solidity-mdart-contract-and-ankr"
         isExternal
         textAlign="center"
       >
@@ -228,7 +239,7 @@ export const Projects = () => {
         </Link>
       </Text>
       <Divider />
-      <Heading size="sm" textAlign="center" pt="3">
+      <Heading size="md" textAlign="center" pt="3">
         Writing
       </Heading>
       <Link href="https://mirror.xyz/joshcs.eth" isExternal>
@@ -244,26 +255,59 @@ export const Projects = () => {
         Blog
       </Link>
       <Divider />
-      <Heading size="sm" textAlign="center" pt="3">
+      <Heading size="md" textAlign="center" pt="3">
         Art Galleries
       </Heading>
-      <Link href="https://deca.art/joshcs/fr33styl3" isExternal>
+      <Button
+        colorScheme="purple"
+        size="lg"
+        rightIcon={<GrGallery />}
+        onClick={() =>
+          window.open("https://deca.art/joshcs/fr33styl3", "_blank")
+        }
+      >
         Deca
-      </Link>
-      <iframe
-        src="https://deca.art/joshcs/fr33styl3"
-        title="Deca.art"
-        width="80%"
-        height="600px"
-      />
-      <Link href="https://oncyber.io/joshstein" isExternal>
+      </Button>
+      <Button
+        colorScheme="purple"
+        size="lg"
+        rightIcon={<Gi3DGlasses />}
+        onClick={() => window.open("https://oncyber.io/joshstein", "_blank")}
+      >
         oncyber
-      </Link>
-      <Link href="https://doingud.com/@joshcs?tab=collected" isExternal>
+      </Button>
+      <Button
+        colorScheme="purple"
+        size="lg"
+        rightIcon={<FaSeedling />}
+        onClick={() =>
+          window.open("https://doingud.com/@joshcs?tab=collected", "_blank")
+        }
+      >
         DoinGud
-      </Link>
+      </Button>
       <Divider />
-      <Heading size="sm" textAlign="center" pt="3">
+      <Heading size="md" textAlign="center" pt="3">
+        Join my Guild
+      </Heading>
+      <Button
+        colorScheme="purple"
+        size="lg"
+        rightIcon={<FaTelegram />}
+        onClick={() => window.open("https://t.me/+qsb73nBcT1Q4MTBh", "_blank")}
+      >
+        Telegram
+      </Button>
+      <Button
+        colorScheme="purple"
+        size="lg"
+        rightIcon={<FaDiscord />}
+        onClick={() => window.open("https://discord.gg/SXftmQ5BN8", "_blank")}
+      >
+        Discord
+      </Button>
+      <Divider />
+      <Heading size="md" textAlign="center" pt="3">
         Old Portfolio Sites
       </Heading>
       <Link href="https://joshcs.xyz/" isExternal>
