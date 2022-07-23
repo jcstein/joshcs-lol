@@ -1,5 +1,14 @@
-import { Heading, Text, Link, Divider, VStack, Flex } from "@chakra-ui/react";
+import {
+  Heading,
+  Text,
+  Link,
+  Divider,
+  VStack,
+  Flex,
+  SimpleGrid,
+} from "@chakra-ui/react";
 import ReactPlayer from "react-player";
+import { TwitterTweetEmbed, TwitterVideoEmbed } from "react-twitter-embed";
 
 export const Projects = () => {
   return (
@@ -17,6 +26,40 @@ export const Projects = () => {
           height="100%"
         />
       </Flex>
+      <SimpleGrid columns={{ sm: 1, md: 2, lg: 3, xl: 4 }} spacing="2">
+        <TwitterVideoEmbed
+          id={"1550135508499501056"}
+          placeholder="Loading..."
+        />
+        <TwitterTweetEmbed
+          tweetId={"1541828779319894017"}
+          placeholder="Loading..."
+        />
+        <TwitterTweetEmbed
+          tweetId={"1534102336934649858"}
+          placeholder="Loading..."
+        />
+        <TwitterTweetEmbed
+          tweetId={"1521818725351108608"}
+          placeholder="Loading..."
+        />
+        <TwitterTweetEmbed
+          tweetId={"1509153472981176324"}
+          placeholder="Loading..."
+        />
+        <TwitterTweetEmbed
+          tweetId={"1507799301149245442"}
+          placeholder="Loading..."
+        />
+        <TwitterTweetEmbed
+          tweetId={"1507396858745819139"}
+          placeholder="Loading..."
+        />
+        <TwitterTweetEmbed
+          tweetId={"1523412683218845697"}
+          placeholder="Loading..."
+        />
+      </SimpleGrid>
       <Divider />
       <Heading size="sm" textAlign="center" pt="3">
         Projects
