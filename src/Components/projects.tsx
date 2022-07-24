@@ -36,11 +36,11 @@ export const Projects = () => {
         Vite Tree - DIY React Linketree with Chakra UI
       </Link>
       <Link
-        href="https://github.com/jcstein/vite-tailwind-starter"
+        href="https://vite-tailwind-starter-two.vercel.app/"
         isExternal
         textAlign="center"
       >
-        Vite Tailwind Starter Template
+        Vite Tailwind Starter Repository
       </Link>
       <Link href="https://rainbowkit.me" isExternal textAlign="center">
         RainbowKit Starter (Vite + React + Tailwind CSS)
