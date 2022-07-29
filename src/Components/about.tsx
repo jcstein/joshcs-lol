@@ -43,7 +43,7 @@ export const About = () => {
         <Link href="https://lattice.supply" isExternal>
           Lattice Supply
         </Link>{" "}
-        ♻️🛹 and founder of{" "}
+        ♻️ 🛹 and founder of{" "}
         <Link href="https://wellnessdao.xyz" isExternal>
           wellnessdao.xyz
         </Link>{" "}
