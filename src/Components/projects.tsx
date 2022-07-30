@@ -126,6 +126,13 @@ export const Projects = () => {
       <Heading size="md" textAlign="center" pt="3">
         Projects
       </Heading>
+      <Link
+        href="https://vite-thirdweb.vercel.app/"
+        isExternal
+        textAlign="center"
+      >
+        thirdweb + rainbowkit + wagmi + vite ERC-1155 minting site
+      </Link>
       <Link href="https://vitetree.xyz" isExternal textAlign="center">
         Vite Tree - DIY React Linketree with Chakra UI
       </Link>
