@@ -131,7 +131,7 @@ export const Projects = () => {
         isExternal
         textAlign="center"
       >
-        thirdweb + rainbowkit + wagmi + vite ERC-1155 minting site
+        thirdweb + rainbowkit + wagmi + vite ERC-1155 minting site (WIP)
       </Link>
       <Link href="https://vitetree.xyz" isExternal textAlign="center">
         Vite Tree - DIY React Linketree with Chakra UI
