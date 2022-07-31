@@ -203,6 +203,9 @@ export const Projects = () => {
         >
           (GitHub)
         </Link>{" "}
+        <Link href="https://www.wellnessdao.xyz/" isExternal textAlign="center">
+          Wellness DAO V2
+        </Link>{" "}
         <Link
           href="http://wellness-dao.vercel.app/"
           isExternal
