@@ -396,6 +396,7 @@ export const Projects = () => {
         onClick={() =>
           window.open("https://deca.art/joshcs/fr33styl3", "_blank")
         }
+        rounded="full"
       >
         Deca
       </Button>
@@ -404,6 +405,7 @@ export const Projects = () => {
         size="lg"
         rightIcon={<Gi3DGlasses />}
         onClick={() => window.open("https://oncyber.io/joshstein", "_blank")}
+        rounded="full"
       >
         oncyber
       </Button>
@@ -414,6 +416,7 @@ export const Projects = () => {
         onClick={() =>
           window.open("https://doingud.com/@joshcs?tab=collected", "_blank")
         }
+        rounded="full"
       >
         DoinGud
       </Button>
@@ -426,6 +429,7 @@ export const Projects = () => {
         size="lg"
         rightIcon={<FaTelegram />}
         onClick={() => window.open("https://t.me/+qsb73nBcT1Q4MTBh", "_blank")}
+        rounded="full"
       >
         Telegram
       </Button>
@@ -434,6 +438,7 @@ export const Projects = () => {
         size="lg"
         rightIcon={<FaDiscord />}
         onClick={() => window.open("https://discord.gg/SXftmQ5BN8", "_blank")}
+        rounded="full"
       >
         Discord
       </Button>
