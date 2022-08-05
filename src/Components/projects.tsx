@@ -40,7 +40,8 @@ export const Projects = () => {
       </Text>
       <Image
         src="./avalanchehouse.jpg"
-        width={["300px", "400px", "500px", "600px"]}
+        width="69%"
+        maxW="500"
         rounded="3xl"
         alt="Josh CS Speaking in Los Angeles, California at LA Hacks 2022"
       />
@@ -55,7 +56,8 @@ export const Projects = () => {
       </Text>
       <Image
         src="./metaversepanel.jpg"
-        width={["300px", "400px", "500px", "600px"]}
+        width="69%"
+        maxW="500"
         rounded="3xl"
         alt="Josh CS Speaking in Los Angeles, California at LA Hacks 2022"
       />
@@ -70,7 +72,8 @@ export const Projects = () => {
       </Text>
       <Image
         src="./lahacks.png"
-        width={["300px", "400px", "500px", "600px"]}
+        width="69%"
+        maxW="500"
         rounded="3xl"
         alt="Josh CS POAP from Los Angeles, California at LA Hacks 2022"
       />
@@ -94,7 +97,8 @@ export const Projects = () => {
       </Text>
       <Image
         src="./jcsbcn.jpg"
-        width={["300px", "400px", "500px", "600px"]}
+        width="69%"
+        maxW="500"
         rounded="3xl"
         alt="Josh CS Speaking in Barcelona, Spain at Avalanche Summit 2022"
       />
@@ -109,7 +113,8 @@ export const Projects = () => {
       </Text>
       <Image
         src="./jcsbounties.png"
-        width={["300px", "400px", "500px", "600px"]}
+        width="69%"
+        maxW="500"
         rounded="3xl"
         alt="Josh CS Speaking in Barcelona, Spain at Avalanche Summit 2022"
       />
@@ -367,21 +372,24 @@ export const Projects = () => {
       </Link>
       <Image
         src="./dd.png"
-        width={["100px", "200px", "300px", "400px"]}
+        width="69%"
+        maxW="500px"
         rounded="full"
         alt="Vibes IRL D_D Design"
         pb="3"
       />
       <Image
         src="./pn.png"
-        width={["300px", "400px", "500px", "600px"]}
+        width="69%"
+        maxW="500px"
         rounded="3xl"
         alt="Probably Nothing Design for Developer DAO Amsterdam Event"
         pb="3"
       />
       <Image
         src="./vibes.png"
-        width={["300px", "400px", "500px", "600px"]}
+        width="69%"
+        maxW="500px"
         rounded="3xl"
         alt="Vibes IRL Design for Developer DAO Amsterdam Event"
       />

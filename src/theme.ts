@@ -5,8 +5,14 @@ const config: ThemeConfig = {
   useSystemColorMode: true,
 };
 
+const fonts = {
+  heading: `"Inter", sans-serif`,
+  body: `"Inter", sans-serif`,
+};
+
 const theme = extendTheme({
   config,
+  fonts,
   components: {
     Link: {
       variants: {
