@@ -1,5 +1,12 @@
 import { IconButton, Flex, HStack } from "@chakra-ui/react";
-import { FaMoon, FaSun, FaTwitter, FaGithub, FaLinkedin } from "react-icons/fa";
+import {
+  FaMoon,
+  FaSun,
+  FaTwitter,
+  FaGithub,
+  FaLinkedin,
+  FaTelegram,
+} from "react-icons/fa";
 import { useColorMode } from "@chakra-ui/react";
 
 export const Buttons = () => {
@@ -7,6 +14,13 @@ export const Buttons = () => {
   return (
     <Flex align="center" justify="end">
       <HStack pt="3" pr="5">
+        <IconButton
+          colorScheme="purple"
+          onClick={() => window.open("https://t.me/josh_cs", "_blank")}
+          aria-label={`Message @josh_cs on Telegram`}
+        >
+          <FaTelegram />
+        </IconButton>
         <IconButton
           colorScheme="purple"
           onClick={() =>
