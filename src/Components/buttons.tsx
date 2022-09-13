@@ -17,19 +17,19 @@ export const Buttons = () => {
       <HStack pt="3" pr="5">
         <IconButton
           colorScheme="purple"
-          onClick={() => window.open("https://t.me/josh_cs", "_blank")}
-          aria-label={`Message @josh_cs on Telegram`}
-        >
-          <FaTelegram />
-        </IconButton>
-        <IconButton
-          colorScheme="purple"
           onClick={() =>
             window.open("https://linkedin.com/in/joshcstein", "_blank")
           }
           aria-label={`Connect with Josh Stein on LinkedIn`}
         >
           <FaLinkedin />
+        </IconButton>
+        <IconButton
+          colorScheme="purple"
+          onClick={() => window.open("https://t.me/josh_cs", "_blank")}
+          aria-label={`Message @josh_cs on Telegram`}
+        >
+          <FaTelegram />
         </IconButton>
         <IconButton
           colorScheme="purple"
