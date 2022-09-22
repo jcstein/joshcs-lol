@@ -20,115 +20,6 @@ export const Projects = () => {
         Projects, Tutorials, and Presentations 🛸
       </Heading>
       <Heading size="md" textAlign="center" pt="3">
-        Presentations
-      </Heading>
-      <Flex pb="3">
-        <ReactPlayer
-          url="https://www.youtube.com/watch?v=LS0rqL6Zp1A"
-          width="100%"
-          height="100%"
-        />
-      </Flex>
-      <Text textAlign="center" fontSize="lg">
-        Wagmi on Polygon with Rahat
-      </Text>
-      <Text textAlign="center" fontSize="sm" as="em">
-        Interwebs on The YouTube
-      </Text>
-      <Text textAlign="center" fontSize="sm" pb="3">
-        July 2022
-      </Text>
-      <Image
-        src="./avalanchehouse.jpg"
-        width="69%"
-        maxW="500"
-        rounded="3xl"
-        alt="Josh CS Speaking in Los Angeles, California at LA Hacks 2022"
-      />
-      <Text textAlign="center" fontSize="lg">
-        Deploy an ERC-721 Smart Contract and Mint NFT on Avalanche with Ankr
-      </Text>
-      <Text textAlign="center" fontSize="sm" as="em">
-        Avalanche House - Berlin, Germany
-      </Text>
-      <Text textAlign="center" fontSize="sm" pb="3">
-        May 2022
-      </Text>
-      <Image
-        src="./metaversepanel.jpg"
-        width="69%"
-        maxW="500"
-        rounded="3xl"
-        alt="Josh CS Speaking in Los Angeles, California at LA Hacks 2022"
-      />
-      <Text textAlign="center" fontSize="lg">
-        Metaverse Panel with Ankr, Microsoft, NVIDIA, and Meta
-      </Text>
-      <Text textAlign="center" fontSize="sm" as="em">
-        LA Hacks @ UCLA - Los Angeles, California
-      </Text>
-      <Text textAlign="center" fontSize="sm" pb="3">
-        April 2022
-      </Text>
-      <Image
-        src="./lahacks.png"
-        width="69%"
-        maxW="500"
-        rounded="3xl"
-        alt="Josh CS POAP from Los Angeles, California at LA Hacks 2022"
-      />
-      <Text textAlign="center" fontSize="lg">
-        How to Deploy an ERC-721 Contract and Mint Your First NFT - Workshop
-      </Text>
-      <Text textAlign="center" fontSize="sm" as="em">
-        LA Hacks @ UCLA - Los Angeles, California
-      </Text>
-      <Text textAlign="center" fontSize="sm" pb="3">
-        April 2022
-      </Text>
-      <Text textAlign="center" fontSize="lg">
-        Ankr Hybrid Infrastructure
-      </Text>
-      <Text textAlign="center" fontSize="sm" as="em">
-        ETH Dubai
-      </Text>
-      <Text textAlign="center" fontSize="sm" pb="3">
-        March 2022
-      </Text>
-      <Image
-        src="./jcsbcn.jpg"
-        width="69%"
-        maxW="500"
-        rounded="3xl"
-        alt="Josh CS Speaking in Barcelona, Spain at Avalanche Summit 2022"
-      />
-      <Text textAlign="center" fontSize="lg">
-        Web3 Developer Tools: My Journey into Web3 and the Ankr Premium Plan
-      </Text>
-      <Text textAlign="center" fontSize="sm" as="em">
-        Avalanche Summit - Barcelona, Spain
-      </Text>
-      <Text textAlign="center" fontSize="sm" pb="3">
-        March 2022
-      </Text>
-      <Image
-        src="./jcsbounties.png"
-        width="69%"
-        maxW="500"
-        rounded="3xl"
-        alt="Josh CS Speaking in Barcelona, Spain at Avalanche Summit 2022"
-      />
-      <Text textAlign="center" fontSize="lg">
-        Avalanche Summit Hackathon Bounties
-      </Text>
-      <Text textAlign="center" fontSize="sm" as="em">
-        Avalanche Summit - Barcelona, Spain
-      </Text>
-      <Text textAlign="center" fontSize="sm">
-        March 2022
-      </Text>
-      <Divider />
-      <Heading size="md" textAlign="center" pt="3">
         Projects
       </Heading>
       <Link href="https://probablynothing.ink/" isExternal textAlign="center">
@@ -302,6 +193,115 @@ export const Projects = () => {
       </Link>
       <Divider />
       <Heading size="md" textAlign="center" pt="3">
+        Presentations
+      </Heading>
+      <Flex pb="3">
+        <ReactPlayer
+          url="https://www.youtube.com/watch?v=LS0rqL6Zp1A"
+          width="100%"
+          height="100%"
+        />
+      </Flex>
+      <Text textAlign="center" fontSize="lg">
+        Wagmi on Polygon with Rahat
+      </Text>
+      <Text textAlign="center" fontSize="sm" as="em">
+        Interwebs on The YouTube
+      </Text>
+      <Text textAlign="center" fontSize="sm" pb="3">
+        July 2022
+      </Text>
+      <Image
+        src="./avalanchehouse.jpg"
+        width="69%"
+        maxW="500"
+        rounded="3xl"
+        alt="Josh CS Speaking in Los Angeles, California at LA Hacks 2022"
+      />
+      <Text textAlign="center" fontSize="lg">
+        Deploy an ERC-721 Smart Contract and Mint NFT on Avalanche with Ankr
+      </Text>
+      <Text textAlign="center" fontSize="sm" as="em">
+        Avalanche House - Berlin, Germany
+      </Text>
+      <Text textAlign="center" fontSize="sm" pb="3">
+        May 2022
+      </Text>
+      <Image
+        src="./metaversepanel.jpg"
+        width="69%"
+        maxW="500"
+        rounded="3xl"
+        alt="Josh CS Speaking in Los Angeles, California at LA Hacks 2022"
+      />
+      <Text textAlign="center" fontSize="lg">
+        Metaverse Panel with Ankr, Microsoft, NVIDIA, and Meta
+      </Text>
+      <Text textAlign="center" fontSize="sm" as="em">
+        LA Hacks @ UCLA - Los Angeles, California
+      </Text>
+      <Text textAlign="center" fontSize="sm" pb="3">
+        April 2022
+      </Text>
+      <Image
+        src="./lahacks.png"
+        width="69%"
+        maxW="500"
+        rounded="3xl"
+        alt="Josh CS POAP from Los Angeles, California at LA Hacks 2022"
+      />
+      <Text textAlign="center" fontSize="lg">
+        How to Deploy an ERC-721 Contract and Mint Your First NFT - Workshop
+      </Text>
+      <Text textAlign="center" fontSize="sm" as="em">
+        LA Hacks @ UCLA - Los Angeles, California
+      </Text>
+      <Text textAlign="center" fontSize="sm" pb="3">
+        April 2022
+      </Text>
+      <Text textAlign="center" fontSize="lg">
+        Ankr Hybrid Infrastructure
+      </Text>
+      <Text textAlign="center" fontSize="sm" as="em">
+        ETH Dubai
+      </Text>
+      <Text textAlign="center" fontSize="sm" pb="3">
+        March 2022
+      </Text>
+      <Image
+        src="./jcsbcn.jpg"
+        width="69%"
+        maxW="500"
+        rounded="3xl"
+        alt="Josh CS Speaking in Barcelona, Spain at Avalanche Summit 2022"
+      />
+      <Text textAlign="center" fontSize="lg">
+        Web3 Developer Tools: My Journey into Web3 and the Ankr Premium Plan
+      </Text>
+      <Text textAlign="center" fontSize="sm" as="em">
+        Avalanche Summit - Barcelona, Spain
+      </Text>
+      <Text textAlign="center" fontSize="sm" pb="3">
+        March 2022
+      </Text>
+      <Image
+        src="./jcsbounties.png"
+        width="69%"
+        maxW="500"
+        rounded="3xl"
+        alt="Josh CS Speaking in Barcelona, Spain at Avalanche Summit 2022"
+      />
+      <Text textAlign="center" fontSize="lg">
+        Avalanche Summit Hackathon Bounties
+      </Text>
+      <Text textAlign="center" fontSize="sm" as="em">
+        Avalanche Summit - Barcelona, Spain
+      </Text>
+      <Text textAlign="center" fontSize="sm">
+        March 2022
+      </Text>
+      <Divider />
+      <Heading size="md" textAlign="center" pt="3">
         Tutorials
       </Heading>
       <Link
@@ -360,7 +360,7 @@ export const Projects = () => {
         Blog
       </Link>
       <Divider />
-      <Heading size="md" textAlign="center" pt="3">
+      <Heading size="lg" textAlign="center" pt="3">
         Design
       </Heading>
       <Link href=" https://www.behance.net/joshuastein" isExternal>
