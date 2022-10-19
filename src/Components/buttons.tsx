@@ -7,6 +7,7 @@ import {
   FaLinkedin,
   FaTelegram,
   FaInstagram,
+  FaDiscord,
 } from "react-icons/fa";
 import { useColorMode } from "@chakra-ui/react";
 
@@ -23,6 +24,15 @@ export const Buttons = () => {
           aria-label={`Connect with Josh Stein on LinkedIn`}
         >
           <FaLinkedin />
+        </IconButton>
+        <IconButton
+          colorScheme="purple"
+          onClick={() =>
+            window.open("https://discordapp.com/users/822200038313689168", "_blank")
+          }
+          aria-label={`Connect with Josh Stein on Discord`}
+        >
+          <FaDiscord />
         </IconButton>
         <IconButton
           colorScheme="purple"
