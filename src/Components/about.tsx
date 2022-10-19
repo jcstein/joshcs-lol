@@ -13,6 +13,12 @@ export const About = () => {
         About Me
       </Heading>
       <Text textAlign="center">
+        I&#39;m currently a Solutions Engineer at
+        <Link href="https://celestia.org" isExternal>
+          Celestia Labs
+        </Link>.
+      </Text>
+      <Text textAlign="center">
         I&#39;m currently an active contributor to{" "}
         <Link href="https://developerdao.com" isExternal>
           Developer DAO
@@ -20,8 +26,7 @@ export const About = () => {
         and{" "}
         <Link href="https://peeple.work" isExternal>
           Peeple DAO
-        </Link>{" "}
-        and will be sharing more about my next step soon.
+        </Link>{" "}.
       </Text>
       <Text textAlign="center">
         Previously, I was a a Developer Relations Engineer at{" "}
