@@ -16,7 +16,7 @@ export const About = () => {
         I&#39;m currently a Solutions Engineer at
         {" "}<Link href="https://celestia.org" isExternal>
           Celestia Labs
-        </Link>.
+        </Link>. We're building the first modular blockchain network.
       </Text>
       <Text textAlign="center">
         I&#39;m also an active contributor to{" "}
