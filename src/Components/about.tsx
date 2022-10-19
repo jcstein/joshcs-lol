@@ -26,7 +26,7 @@ export const About = () => {
         and{" "}
         <Link href="https://peeple.work" isExternal>
           Peeple DAO
-        </Link>{" "}.
+        </Link>.
       </Text>
       <Text textAlign="center">
         Previously, I was a a Developer Relations Engineer at{" "}
