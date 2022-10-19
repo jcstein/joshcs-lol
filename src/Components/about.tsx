@@ -14,7 +14,7 @@ export const About = () => {
       </Heading>
       <Text textAlign="center">
         I&#39;m currently a Solutions Engineer at
-        <Link href="https://celestia.org" isExternal>
+        {" "}<Link href="https://celestia.org" isExternal>
           Celestia Labs
         </Link>.
       </Text>
