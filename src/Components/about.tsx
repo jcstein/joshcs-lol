@@ -19,7 +19,7 @@ export const About = () => {
         </Link>.
       </Text>
       <Text textAlign="center">
-        I&#39;m currently an active contributor to{" "}
+        I&#39;m also an active contributor to{" "}
         <Link href="https://developerdao.com" isExternal>
           Developer DAO
         </Link>{" "}
