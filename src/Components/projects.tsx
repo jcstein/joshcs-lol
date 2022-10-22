@@ -398,7 +398,7 @@ export const Projects = () => {
         size="lg"
         rightIcon={<GrGallery />}
         onClick={() =>
-          window.open("https://deca.art/joshcs/fr33styl3", "_blank")
+          window.open("https://deca.art/joshcs/3", "_blank")
         }
         rounded="full"
       >
