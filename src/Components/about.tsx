@@ -38,7 +38,7 @@ export const About = () => {
           buildspace
         </Link>{" "}
         - you can see my buildspace profile{" "}
-        <Link href="buildspace.so/@josh" isExternal>
+        <Link href="https://buildspace.so/@josh" isExternal>
           @josh
         </Link>{" "}
         🦄
