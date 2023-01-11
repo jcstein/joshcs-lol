@@ -347,7 +347,7 @@ export const Projects = () => {
       <Heading size="md" textAlign="center" pt="3">
         Writing
       </Heading>
-      <Link href="https://mirror.xyz/joshcs.eth" isExternal>
+      <Link href="https://mirror.xyz/hotjosh.eth" isExternal>
         Mirror
       </Link>
       <Link href="https://hashnode.com/@jcstein" isExternal>
