@@ -22,6 +22,12 @@ export const Projects = () => {
       <Heading size="md" textAlign="center" pt="3">
         Projects
       </Heading>
+      <Link href="https://saymoo.eth.limo/" isExternal textAlign="center">
+        Celestia EVM rollup demo - Say Moo
+      </Link>
+      <Link href="https://buildmarket.eth.limo/" isExternal textAlign="center">
+        Celestia EVM rollup demo - GM Portal
+      </Link>
       <Link href="https://probablynothing.ink/" isExternal textAlign="center">
         thirdweb + rainbowkit + wagmi + vite ERC-1155 minting site
       </Link>
@@ -195,6 +201,13 @@ export const Projects = () => {
       <Heading size="md" textAlign="center" pt="3">
         Presentations
       </Heading>
+      <Flex pb="3">
+        <ReactPlayer
+          url="https://www.youtube.com/watch?v=KWijOhR5HEU"
+          width="100%"
+          height="100%"
+        />
+      </Flex>
       <Flex pb="3">
         <ReactPlayer
           url="https://www.youtube.com/watch?v=LS0rqL6Zp1A"
