@@ -439,28 +439,6 @@ export const Projects = () => {
       </Button>
       <Divider />
       <Heading size="md" textAlign="center" pt="3">
-        Join my Guild
-      </Heading>
-      <Button
-        colorScheme="purple"
-        size="lg"
-        rightIcon={<FaTelegram />}
-        onClick={() => window.open("https://t.me/+qsb73nBcT1Q4MTBh", "_blank")}
-        rounded="full"
-      >
-        Telegram
-      </Button>
-      <Button
-        colorScheme="purple"
-        size="lg"
-        rightIcon={<FaDiscord />}
-        onClick={() => window.open("https://discord.gg/SXftmQ5BN8", "_blank")}
-        rounded="full"
-      >
-        Discord
-      </Button>
-      <Divider />
-      <Heading size="md" textAlign="center" pt="3">
         Old Portfolio Sites
       </Heading>
       <Link href="https://joshcs.xyz/" isExternal>
