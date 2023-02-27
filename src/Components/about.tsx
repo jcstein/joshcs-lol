@@ -10,7 +10,7 @@ export const About = () => {
       </Heading>
       <Divider />
       <Heading size="lg" textAlign="center" pt="3">
-        About Me
+        About me
       </Heading>
       <Text textAlign="center">
         I&#39;m currently a Solutions Engineer at

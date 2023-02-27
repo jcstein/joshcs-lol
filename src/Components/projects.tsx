@@ -9,7 +9,7 @@ import {
   Image,
 } from "@chakra-ui/react";
 import ReactPlayer from "react-player";
-import { FaTelegram, FaDiscord, FaSeedling } from "react-icons/fa";
+import { FaSeedling } from "react-icons/fa";
 import { GrGallery } from "react-icons/gr";
 import { Gi3DGlasses } from "react-icons/gi";
 
@@ -17,7 +17,7 @@ export const Projects = () => {
   return (
     <VStack>
       <Heading size="lg" textAlign="center" pt="3">
-        Projects, Tutorials, and Presentations 🛸
+        Projects, tutorials, and presentations 🛸
       </Heading>
       <Heading size="md" textAlign="center" pt="3">
         Projects
@@ -404,7 +404,7 @@ export const Projects = () => {
       />
       <Divider />
       <Heading size="md" textAlign="center" pt="3">
-        Art Galleries
+        Art galleries
       </Heading>
       <Button
         colorScheme="purple"
@@ -439,7 +439,7 @@ export const Projects = () => {
       </Button>
       <Divider />
       <Heading size="md" textAlign="center" pt="3">
-        Old Portfolio Sites
+        Old portfolio sites
       </Heading>
       <Link href="https://joshcs.xyz/" isExternal>
         joshcs.xyz
