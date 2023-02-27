@@ -4,7 +4,7 @@ export const About = () => {
   return (
     <VStack>
       <Heading pb="3">gm, I'm josh!</Heading>
-      <Avatar src="/jcs-headshot.png" mx="auto" size="2xl" />
+      <Avatar src="/Josh_Stein.jpg" mx="auto" size="2xl" />
       <Heading size="md" pb="3" textAlign="center" pt="3">
         Thank you for stopping by my site 😄
       </Heading>
