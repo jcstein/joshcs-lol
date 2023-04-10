@@ -22,6 +22,12 @@ export const Projects = () => {
       <Heading size="md" textAlign="center" pt="3">
         Projects
       </Heading>
+      <Link href="https://based64.xyz/" isExternal textAlign="center">
+        Base64 SVG Tutorial with Celestia
+      </Link>
+      <Link href="https://bitkit.dev/" isExternal textAlign="center">
+        Bitcoin + Rollkit + EVM demo - Bitkit.dev
+      </Link>
       <Link href="https://saymoo.eth.limo/" isExternal textAlign="center">
         Celestia EVM rollup demo - Say Moo
       </Link>
