@@ -22,8 +22,11 @@ export const Projects = () => {
       <Heading size="md" textAlign="center" pt="3">
         Projects
       </Heading>
+      <Link href="https://buildmarket.xyz/" isExternal textAlign="center">
+        build market - NFT marketplace on Goerli built with thirdweb
+      </Link>
       <Link href="https://based64.xyz/" isExternal textAlign="center">
-        Base64 SVG Tutorial with Celestia
+        Base64 SVG tutorial with Celestia
       </Link>
       <Link href="https://bitkit.dev/" isExternal textAlign="center">
         Bitcoin + Rollkit + EVM demo - Bitkit.dev
