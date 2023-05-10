@@ -19,7 +19,7 @@ export const About = () => {
         </Link>. We're building the first modular blockchain network.
       </Text>
       <Text textAlign="center">
-        I&#39;m also an active contributor to{" "}
+        I&#39;m also hanging out in{" "}
         <Link href="https://developerdao.com" isExternal>
           Developer DAO
         </Link>{" "}
