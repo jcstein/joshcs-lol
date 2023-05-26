@@ -212,6 +212,13 @@ export const Projects = () => {
       </Heading>
       <Flex pb="3">
         <ReactPlayer
+          url="https://www.youtube.com/watch?v=nucX0pLY9JA"
+          width="100%"
+          height="100%"
+        />
+      </Flex>
+      <Flex pb="3">
+        <ReactPlayer
           url="https://www.youtube.com/watch?v=KWijOhR5HEU"
           width="100%"
           height="100%"
