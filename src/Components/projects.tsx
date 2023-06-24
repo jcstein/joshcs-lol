@@ -22,6 +22,14 @@ export const Projects = () => {
       <Heading size="md" textAlign="center" pt="3">
         Projects
       </Heading>
+      <Flex pb="3">
+        <ReactPlayer
+          url="https://www.youtube.com/watch?v=YbMX42ILtLA"
+          width="100%"
+          height="100%"
+          controls="true"
+        />
+      </Flex>
       <Link href="https://buildmarket.xyz/" isExternal textAlign="center">
         build market - NFT marketplace on Goerli built with thirdweb
       </Link>
@@ -215,6 +223,7 @@ export const Projects = () => {
           url="https://www.youtube.com/watch?v=nucX0pLY9JA"
           width="100%"
           height="100%"
+          controls="true"
         />
       </Flex>
       <Flex pb="3">
@@ -222,6 +231,7 @@ export const Projects = () => {
           url="https://www.youtube.com/watch?v=KWijOhR5HEU"
           width="100%"
           height="100%"
+          controls="true"
         />
       </Flex>
       <Flex pb="3">
@@ -229,6 +239,7 @@ export const Projects = () => {
           url="https://www.youtube.com/watch?v=LS0rqL6Zp1A"
           width="100%"
           height="100%"
+          controls="true"
         />
       </Flex>
       <Text textAlign="center" fontSize="lg">
