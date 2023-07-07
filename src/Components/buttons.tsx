@@ -70,7 +70,7 @@ export const Buttons = () => {
           onClick={toggleColorMode}
           aria-label={`Switch from ${colorMode} mode`}
         >
-          {colorMode === "light" ? <FaMoon /> : <FaSun />}
+          {colorMode === "light" ? <FaSun /> : <FaMoon />}
         </IconButton>
       </HStack>
     </Flex>

@@ -19,7 +19,10 @@ function App() {
           This website is{" "}
           <Link href="https://github.com/jcstein/joshcs-lol" isExternal>
             open-source
-          </Link>
+          </Link>{" "} and the analytics are{" "}
+          <Link href="https://plausible.io/joshcs.lol" isExternal>
+            GDPR-compliant
+          </Link>.
         </Text>
       </VStack>
     </div>
