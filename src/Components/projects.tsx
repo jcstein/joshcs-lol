@@ -22,6 +22,15 @@ export const Projects = () => {
       <Heading size="md" textAlign="center" pt="3">
         Projects
       </Heading>
+      <Link href="https://screennames.xyz/" isExternal textAlign="center">
+        Screen Names - a lightweight app to help you rename screenshots on macOS
+      </Link>
+      <Link href="https://moveyourcar.lol/" isExternal textAlign="center">
+        moveyourcar.lol - a bot to send you parking notifications near you
+      </Link>
+      <Link href="https://quasarapp.xyz/" isExternal textAlign="center">
+        Quasar - a Celestia light node client for macOS
+      </Link>
       <Flex pb="3">
         <ReactPlayer
           url="https://www.youtube.com/watch?v=YbMX42ILtLA"
