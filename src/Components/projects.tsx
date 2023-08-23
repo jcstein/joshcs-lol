@@ -139,7 +139,7 @@ export const Projects = () => {
         </Link>
       </Text>
       <Text textAlign="center">
-        <Link href="https://mint.blockify.shop/" isExternal textAlign="center">
+        <Link href="https://nft-drop-starter-project-pink.vercel.app/" isExternal textAlign="center">
           buildspace - Blockify Solana NFT collection
         </Link>{" "}
         <Link
@@ -150,7 +150,7 @@ export const Projects = () => {
           (GitHub)
         </Link>
       </Text>
-      <Link href="https://blockify.so/" isExternal textAlign="center">
+      <Link href="https://blockify.vercel.app/" isExternal textAlign="center">
         Blockify Concept
       </Link>
       <Text textAlign="center">
