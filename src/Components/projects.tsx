@@ -22,6 +22,9 @@ export const Projects = () => {
       <Heading size="md" textAlign="center" pt="3">
         Projects
       </Heading>
+      <Link href="https://celestia.cool" isExternal textAlign="center">
+        celestia.cool - a Celestia mempool visualization
+      </Link>
       <Link href="https://www.npmjs.com/package/light-nodes/" isExternal textAlign="center">
         light-nodes - an NPM package for using celestia-node
       </Link>
