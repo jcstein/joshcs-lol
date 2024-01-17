@@ -3,7 +3,7 @@ import { Avatar, Heading, Text, Link, Divider, VStack } from "@chakra-ui/react";
 export const About = () => {
   return (
     <VStack>
-      <Heading pb="3">Hi, I'm josh!</Heading>
+      <Heading pb="3">Hi, I'm Josh!</Heading>
       <Avatar src="/Josh_Stein.jpg" mx="auto" size="2xl" />
       <Heading size="md" pb="3" textAlign="center" pt="3">
         Thank you for stopping by my site 😄
