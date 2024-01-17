@@ -44,15 +44,6 @@ export const Buttons = () => {
         <IconButton
           colorScheme="purple"
           onClick={() =>
-            window.open("https://instagram.com/joshcstein", "_blank")
-          }
-          aria-label={`Follow Josh Stein on Instagram`}
-        >
-          <FaInstagram />
-        </IconButton>
-        <IconButton
-          colorScheme="purple"
-          onClick={() =>
             window.open("https://twitter.com/JoshCStein", "_blank")
           }
           aria-label={`Follow @JoshCStein on Twitter`}
