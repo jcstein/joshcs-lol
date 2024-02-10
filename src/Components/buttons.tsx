@@ -6,7 +6,6 @@ import {
   FaGithub,
   FaLinkedin,
   FaTelegram,
-  FaInstagram,
   FaDiscord,
 } from "react-icons/fa";
 import { useColorMode } from "@chakra-ui/react";

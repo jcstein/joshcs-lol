@@ -15,26 +15,27 @@ import { Gi3DGlasses } from "react-icons/gi";
 
 export const Projects = () => {
   return (
-    <VStack>
-      <Heading size="lg" textAlign="center" pt="3">
+    <>
+    <VStack align="start" maxWidth="800px" mx="auto" width="100%">
+      <Heading size="lg" textAlign="left" pt="3">
         Projects, tutorials, and presentations 🛸
       </Heading>
-      <Heading size="md" textAlign="center" pt="3">
+      <Heading size="md" textAlign="left" pt="3">
         Projects
       </Heading>
-      <Link href="https://celestia.cool" isExternal textAlign="center">
+      <Link href="https://celestia.cool" isExternal textAlign="left">
         celestia.cool - a Celestia mempool visualization
       </Link>
-      <Link href="https://www.npmjs.com/package/light-nodes/" isExternal textAlign="center">
+      <Link href="https://www.npmjs.com/package/light-nodes/" isExternal textAlign="left">
         light-nodes - an NPM package for using celestia-node
       </Link>
-      <Link href="https://screennames.xyz/" isExternal textAlign="center">
+      <Link href="https://screennames.xyz/" isExternal textAlign="left">
         Screen Names - a lightweight app to help you rename screenshots on macOS
       </Link>
-      <Link href="https://moveyourcar.lol/" isExternal textAlign="center">
+      <Link href="https://moveyourcar.lol/" isExternal textAlign="left">
         moveyourcar.lol - a bot to send you parking notifications near you
       </Link>
-      <Link href="https://quasarapp.xyz/" isExternal textAlign="center">
+      <Link href="https://quasarapp.xyz/" isExternal textAlign="left">
         Quasar - a Celestia light node client for macOS
       </Link>
       <Flex pb="3">
@@ -45,190 +46,191 @@ export const Projects = () => {
           controls={true}
         />
       </Flex>
-      <Link href="https://buildmarket.xyz/" isExternal textAlign="center">
+      <Link href="https://buildmarket.xyz/" isExternal textAlign="left">
         build market - NFT marketplace on Goerli built with thirdweb
       </Link>
-      <Link href="https://based64.xyz/" isExternal textAlign="center">
+      <Link href="https://based64.xyz/" isExternal textAlign="left">
         Base64 SVG tutorial with Celestia
       </Link>
-      <Link href="https://bitkit.dev/" isExternal textAlign="center">
+      <Link href="https://bitkit.dev/" isExternal textAlign="left">
         Bitcoin + Rollkit + EVM demo - Bitkit.dev
       </Link>
-      <Link href="https://saymoo.eth.limo/" isExternal textAlign="center">
+      <Link href="https://saymoo.eth.limo/" isExternal textAlign="left">
         Celestia EVM rollup demo - Say Moo
       </Link>
-      <Link href="https://buildmarket.eth.limo/" isExternal textAlign="center">
+      <Link href="https://buildmarket.eth.limo/" isExternal textAlign="left">
         Celestia EVM rollup demo - GM Portal
       </Link>
-      <Link href="https://probablynothing.ink/" isExternal textAlign="center">
+      <Link href="https://probablynothing.ink/" isExternal textAlign="left">
         thirdweb + rainbowkit + wagmi + vite ERC-1155 minting site
       </Link>
-      <Link href="https://vitetree.xyz" isExternal textAlign="center">
+      <Link href="https://vitetree.xyz" isExternal textAlign="left">
         Vite Tree - DIY React Linketree with Chakra UI
       </Link>
       <Link
         href="https://vite-tailwind-starter-two.vercel.app/"
         isExternal
-        textAlign="center"
+        textAlign="left"
       >
         Vite Tailwind Starter Repository
       </Link>
-      <Link href="https://rainbowkit.me" isExternal textAlign="center">
+      <Link href="https://rainbowkit.me" isExternal textAlign="left">
         RainbowKit Starter (Vite + React + Tailwind CSS)
       </Link>
-      <Link href="https://multichain.gallery" isExternal textAlign="center">
+      <Link href="https://multichain.gallery" isExternal textAlign="left">
         Multichain NFT Gallery
       </Link>
-      <Link href="https://payg-calc.vercel.app" isExternal textAlign="center">
+      <Link href="https://payg-calc.vercel.app" isExternal textAlign="left">
         Ankr Pay-as-you-go Calculator
       </Link>
-      <Link href="https://joshcs.xyz/detools" isExternal textAlign="center">
+      <Link href="https://joshcs.xyz/detools" isExternal textAlign="left">
         My List of Decentralized Tooling
       </Link>
       <Link
         href="https://www.web3con.dev/2022-recap"
         isExternal
-        textAlign="center"
+        textAlign="left"
       >
         web3con by DeveloperDAO
       </Link>
-      <Link href="https://xp-radio.vercel.app/" isExternal textAlign="center">
+      <Link href="https://xp-radio.vercel.app/" isExternal textAlign="left">
         XP Radio Linktree-style Chakra UI + React
       </Link>
       <Link
         href="https://speedrunethereum.com/builders/0x186Ea56F0a40c5593A697B3E804968b8C5920Ff3"
         isExternal
-        textAlign="center"
+        textAlign="left"
       >
         SpeedRunEthereum.com
       </Link>
-      <Text textAlign="center">
+      <Text textAlign="left">
         <Link
           href="https://solidity-keyboard-generator.vercel.app/"
           isExternal
-          textAlign="center"
+          textAlign="left"
         >
           pointer.gg - Solidity Keyboard Generator
         </Link>{" "}
         <Link
           href="https://github.com/jcstein/solidity-keyboard-generator"
           isExternal
-          textAlign="center"
+          textAlign="left"
         >
           (GitHub)
         </Link>
       </Text>
-      <Text textAlign="center">
+      <Text textAlign="left">
         <Link
           href="https://enter.wellnessdao.xyz/"
           isExternal
-          textAlign="center"
+          textAlign="left"
         >
           buildspace - Wellness DAO, build your own DAO
         </Link>{" "}
         <Link
           href="https://github.com/jcstein/buildspace-dao-starter"
           isExternal
-          textAlign="center"
+          textAlign="left"
         >
           (GitHub)
         </Link>{" "}
-        <Link href="https://www.wellnessdao.xyz/" isExternal textAlign="center">
+        <Link href="https://www.wellnessdao.xyz/" isExternal textAlign="left">
           Wellness DAO V2
         </Link>{" "}
         <Link
           href="http://wellness-dao.vercel.app/"
           isExternal
-          textAlign="center"
+          textAlign="left"
         >
           Wellness DAO V1
         </Link>
       </Text>
-      <Text textAlign="center">
-        <Link href="https://nft-drop-starter-project-pink.vercel.app/" isExternal textAlign="center">
+      <Text textAlign="left">
+        <Link href="https://nft-drop-starter-project-pink.vercel.app/" isExternal textAlign="left">
           buildspace - Blockify Solana NFT collection
         </Link>{" "}
         <Link
           href="https://github.com/jcstein/nft-drop-starter-project"
           isExternal
-          textAlign="center"
+          textAlign="left"
         >
           (GitHub)
         </Link>
       </Text>
-      <Link href="https://blockify.vercel.app/" isExternal textAlign="center">
+      <Link href="https://blockify.vercel.app/" isExternal textAlign="left">
         Blockify Concept
       </Link>
-      <Text textAlign="center">
-        <Link href="https://solana.jcstein.dev/" isExternal textAlign="center">
+      <Text textAlign="left">
+        <Link href="https://solana.jcstein.dev/" isExternal textAlign="left">
           buildspace - Solana dApp
         </Link>{" "}
         <Link
           href="https://replit.com/@jcstein/solana?v=1"
           isExternal
-          textAlign="center"
+          textAlign="left"
         >
           (Replit)
         </Link>
       </Text>
-      <Text textAlign="center">
-        <Link href="https://game.jcstein.dev/" isExternal textAlign="center">
+      <Text textAlign="left">
+        <Link href="https://game.jcstein.dev/" isExternal textAlign="left">
           buildspace - playable NFTs
         </Link>{" "}
         <Link
           href="https://replit.com/@jcstein/bosshroom?v=1"
           isExternal
-          textAlign="center"
+          textAlign="left"
         >
           (Replit)
         </Link>
       </Text>
-      <Text textAlign="center">
-        <Link href="https://minting.jcstein.dev/" isExternal textAlign="center">
+      <Text textAlign="left">
+        <Link href="https://minting.jcstein.dev/" isExternal textAlign="left">
           buildspace - minting site
         </Link>{" "}
         <Link
           href="https://replit.com/@jcstein/lattice-supply?v=1"
           isExternal
-          textAlign="center"
+          textAlign="left"
         >
           (Replit)
         </Link>
       </Text>
-      <Text textAlign="center">
-        <Link href="https://web3.jcstein.dev/" isExternal textAlign="center">
+      <Text textAlign="left">
+        <Link href="https://web3.jcstein.dev/" isExternal textAlign="left">
           buildspace - intro to web3
         </Link>{" "}
         <Link
           href="https://replit.com/@jcstein/veggie-portal?v=1"
           isExternal
-          textAlign="center"
+          textAlign="left"
         >
           (Replit)
         </Link>
       </Text>
-      <Text textAlign="center">
+      <Text textAlign="left">
         <Link
           href="https://sequoiavans.gatsbyjs.io/"
           isExternal
-          textAlign="center"
+          textAlign="left"
         >
           Sequoia Vans, i18n demo
         </Link>{" "}
         <Link
           href="https://github.com/jcstein/sequoia-vans"
           isExternal
-          textAlign="center"
+          textAlign="left"
         >
           (GitHub)
         </Link>
       </Text>
-      <Link href="3slr.vercel.app" isExternal textAlign="center">
+      <Link href="https://3slr.vercel.app" isExternal textAlign="left">
         3SLR Zora Demo
       </Link>
-      <Link href="https://issnlnewtonight.com/" isExternal textAlign="center">
+      <Link href="https://issnlnewtonight.com/" isExternal textAlign="left">
         Is SNL New Tonight?
       </Link>
+      </VStack>
       <Divider />
       <Heading size="md" textAlign="center" pt="3">
         Presentations
@@ -492,6 +494,6 @@ export const Projects = () => {
       <Link href="https://jcstein.com/" isExternal pb="3">
         jcstein.com
       </Link>
-    </VStack>
+    </>
   );
 };
