@@ -49,8 +49,8 @@ export const About = () => {
           Lattice Supply
         </Link>{" "}
         ♻️ 🛹 and founder of{" "}
-        <Link href="https://wellnessdao.xyz" isExternal>
-          wellnessdao.xyz
+        <Link href="https://wellness-dao-2.vercel.app" isExternal>
+          Wellness DAO
         </Link>{" "}
         🧠
       </Text>
