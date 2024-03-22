@@ -32,7 +32,7 @@ export const Projects = () => {
       <Link href="https://screennames.xyz/" isExternal textAlign="left">
         Screen Names - a lightweight app to help you rename screenshots on macOS
       </Link>
-      <Link href="https://moveyourcar.lol/" isExternal textAlign="left">
+      <Link href="https://moveyourcar.vercel.app/" isExternal textAlign="left">
         moveyourcar.lol - a bot to send you parking notifications near you
       </Link>
       <Link href="pessimistic-loogies.surge.sh/" isExternal textAlign="left">
