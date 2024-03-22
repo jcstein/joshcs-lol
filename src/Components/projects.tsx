@@ -26,6 +26,9 @@ export const Projects = () => {
       <Link href="https://celestia.cool" isExternal textAlign="left">
         celestia.cool - a Celestia mempool visualization
       </Link>
+      <Link href="https://www.npmjs.com/package/light-nodes/" isExternal textAlign="left">
+        light-nodes - an NPM package for using celestia-node
+      </Link>
       <Link href="https://quazarapp.xyz/" isExternal textAlign="left">
         Quazar - a Celestia light node client for macOS
       </Link>
