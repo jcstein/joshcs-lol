@@ -29,7 +29,7 @@ export const Projects = () => {
       <Link href="https://www.npmjs.com/package/light-nodes/" isExternal textAlign="left">
         light-nodes - an NPM package for using celestia-node
       </Link>
-      <Link href="https://screennames.xyz/" isExternal textAlign="left">
+      <Link href="https://screennames.vercel.app/" isExternal textAlign="left">
         Screen Names - a lightweight app to help you rename screenshots on macOS
       </Link>
       <Link href="https://moveyourcar.vercel.app/" isExternal textAlign="left">
