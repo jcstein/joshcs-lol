@@ -29,16 +29,13 @@ export const Projects = () => {
       <Link href="https://quazarapp.xyz/" isExternal textAlign="left">
         Quazar - a Celestia light node client for macOS
       </Link>
-      <Link href="https://screennames.vercel.app/" isExternal textAlign="left">
-        Screen Names - a lightweight app to help you rename screenshots on macOS
-      </Link>
       <Link href="https://moveyourcar.vercel.app/" isExternal textAlign="left">
         moveyourcar.lol - a bot to send you parking notifications near you
       </Link>
       <Link href="pessimistic-loogies.surge.sh/" isExternal textAlign="left">
         An implementation of Scaffold-ETH Optimistic Loogies on a rollup
       </Link>
-      <Link href="https://screennames.xyz/" isExternal textAlign="left">
+      <Link href="https://screennames.vercel.app/" isExternal textAlign="left">
         Screen Names - a lightweight app to help you rename screenshots on macOS
       </Link>
       <Flex pb="3">
