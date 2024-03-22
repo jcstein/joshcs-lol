@@ -80,7 +80,7 @@ export const Projects = () => {
       <Link href="https://rainbowkit.me" isExternal textAlign="left">
         RainbowKit Starter (Vite + React + Tailwind CSS)
       </Link>
-      <Link href="https://multichain.gallery" isExternal textAlign="left">
+      <Link href="https://multichain-gallery-ankr.vercel.app" isExternal textAlign="left">
         Multichain NFT Gallery
       </Link>
       <Link href="https://payg-calc.vercel.app" isExternal textAlign="left">
