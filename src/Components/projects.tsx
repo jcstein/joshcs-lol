@@ -73,7 +73,7 @@ export const Projects = () => {
       <Link href="https://probablynothing.ink/" isExternal textAlign="left">
         thirdweb + rainbowkit + wagmi + vite ERC-1155 minting site
       </Link>
-      <Link href="https://vitetree.xyz" isExternal textAlign="left">
+      <Link href="https://vite-tree.vercel.app" isExternal textAlign="left">
         Vite Tree - DIY React Linketree with Chakra UI
       </Link>
       <Link
