@@ -64,6 +64,9 @@ export const Projects = () => {
       <Link href="https://buildmarket.eth.limo/" isExternal textAlign="left">
         Celestia EVM rollup demo - GM Portal
       </Link>
+      <Link href="https://r3sum3-2.vercel.app/" isExternal textAlign="left">
+        R3sume - my resume as an NFT
+      </Link>
       <Link href="https://probablynothing.ink/" isExternal textAlign="left">
         thirdweb + rainbowkit + wagmi + vite ERC-1155 minting site
       </Link>
