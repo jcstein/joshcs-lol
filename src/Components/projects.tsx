@@ -246,6 +246,38 @@ export const Projects = () => {
       </Heading>
       <Flex pb="3">
         <ReactPlayer
+          url="https://www.youtube.com/watch?v=ruXxChTdLzo"
+          width="100%"
+          height="100%"
+          controls={true}
+        />
+      </Flex>
+      <Flex pb="3">
+        <ReactPlayer
+          url="https://www.youtube.com/watch?v=VQ8dOjPWppo"
+          width="100%"
+          height="100%"
+          controls={true}
+        />
+      </Flex>
+      <Flex pb="3">
+        <ReactPlayer
+          url="https://www.youtube.com/watch?v=3kLuHOJariY"
+          width="100%"
+          height="100%"
+          controls={true}
+        />
+      </Flex>
+      <Flex pb="3">
+        <ReactPlayer
+          url="https://www.youtube.com/watch?v=_9DCV23CJV0"
+          width="100%"
+          height="100%"
+          controls={true}
+        />
+      </Flex>
+      <Flex pb="3">
+        <ReactPlayer
           url="https://www.youtube.com/watch?v=nucX0pLY9JA"
           width="100%"
           height="100%"
