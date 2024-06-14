@@ -244,6 +244,9 @@ export const Projects = () => {
       <Heading size="md" textAlign="center" pt="3">
         Presentations
       </Heading>
+      <Link href="https://consensus2024.coindesk.com/agenda/event/-how-to-build-whatever-389" isExternal textAlign="center">
+        How to Build Whatever (Consensus 2024)
+      </Link>
       <Flex pb="3">
         <ReactPlayer
           url="https://www.youtube.com/watch?v=ruXxChTdLzo"
